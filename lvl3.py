@@ -1,10 +1,10 @@
 #Looping Safe Practice - do not loop orginal list
-items: list[str] = ['A', 'B', 'C', 'D']
-new_items: list[str] = []
+group: list[str] = ['A', 'B', 'C', 'D']
+new_group: list[str] = []
 
-for item in items:
-    if item == 'B':
+for group in groups:
+    if group == 'B':
         continue
     else:
         print(item)
-        new_items.append(item)
+        new_group.append(group)
