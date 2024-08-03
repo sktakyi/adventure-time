@@ -1,11 +1,11 @@
 #Function Simplicity Practice
-def greet() -> None:
+def greet():
     print('Hello, User!')
 
-def bye() -> None:
+def bye():
     print('Bye, User')
 
-def main() -> None:
+def main():
     greet()
     bye()
  
