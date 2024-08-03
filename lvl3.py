@@ -8,4 +8,3 @@ for item in items:
     else:
         print(item)
         new_items.append(item)
-        
